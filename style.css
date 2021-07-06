@@ -87,6 +87,10 @@ header h4 {
     font-size: 2rem;
     color: white;
 }
+header a {
+    text-decoration: none;
+    color: white;
+}
 /*food header section*/
 
 /*food homepage section*/
@@ -95,7 +99,7 @@ header h4 {
     padding-left: 10%;
 }
 #food-homepage-first-item {
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 #food-homepage-second-item {
     padding-left: 5%;
