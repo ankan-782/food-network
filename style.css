@@ -1,7 +1,41 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    color: rgb(63, 63, 63);
     margin: 0;
 }
-.orange-color {
+.flexible-container {
+    display: flex;
+}
+#food-homepage {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.half-width {
+    width: 50%;
+}
+#first-item {
+    padding-top: 5%;
+}
+#food-homepage-img {
+    padding-left: 5%;
+}
+h1 {
+    font-size: 5rem;
+}
+p {
+    font-size: 1.3rem;
+}
+#limited-width {
+    width: 70%;
+}
+#span-orange-color {
     color: orange;
+}
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 2% 4%;
+    background-image: linear-gradient(red, orange);
 }
