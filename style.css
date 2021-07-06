@@ -50,6 +50,13 @@ p {
 }
 /*for my recipe and followers page width*/
 
+/*for todays special page width*/
+.for-four-portion-width {
+    width: 20%;
+    margin: 0 auto;
+}
+/*for todays special page width*/
+
 /*for review page width*/
 .two-portion-width-for-food-review {
     width: 45%;
@@ -57,9 +64,34 @@ p {
 }
 /*for review page width*/
 
+/*food myrecipe and todays-special section*/
+.carditem {
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(189, 182, 182);
+    padding: 20px;
+}
+.limited-width-for-carditem-paragraph {
+    line-height: 1.7;
+}
+/*food myrecipe and todays-special section*/
+
+/*food header section*/
+#food-header {
+    padding: 5px 0px 5px 50px;
+    background-color: rgba(0, 0, 8, 0.952);
+    border-bottom: 7px solid;
+    border-image: linear-gradient(red, salmon);
+    border-image-slice: 5;
+}
+header h4 {
+    font-size: 2rem;
+    color: white;
+}
+/*food header section*/
+
 /*food homepage section*/
 #food-homepage {
-    padding-top: 10%;
+    padding-top: 10px;
     padding-left: 10%;
 }
 #food-homepage-first-item {
@@ -90,9 +122,6 @@ p {
 .text-formating-for-food-myrecipe {
     text-align: center;
 }
-.limited-width-for-carditem-paragraph {
-    line-height: 1.7;
-}
 #limited-width-for-food-myrecipe-paragraph{
     margin: 0 22% 5%;
     line-height: 1.5;
@@ -101,12 +130,21 @@ p {
     margin-top: 10%;
     padding: 0 7%;
 }
-.carditem {
-    border-radius: 30px;
-    box-shadow: 0px 0px 20px rgb(189, 182, 182);
-    padding: 20px;
-}
 /*food myrecipe section*/
+
+/*food todays special*/
+.text-formating-for-food-todays-special {
+    text-align: center;
+}
+#limited-width-for-food-todays-special-paragraph{
+    margin: 0 22% 5%;
+    line-height: 1.5;
+}
+#food-todays-special {
+    margin-top: 10%;
+    padding: 0 7%;
+}
+/*food todays special*/
 
 /*food review section*/
 #food-reviews {
@@ -188,6 +226,9 @@ small {
     margin-top: 10%;
     padding: 5px 0 5px;
     background-color: rgba(0, 0, 8, 0.952);
+    border-top: 7px solid;
+    border-image: linear-gradient(red, salmon);
+    border-image-slice: 5;
 }
 .text-formating-for-footers {
     text-align: center;
