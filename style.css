@@ -7,14 +7,7 @@ body {
 .flexible-container {
     display: flex;
 }
-.for-two-portion-width {
-    width: 50%;
-}
-.for-three-portion-width {
-    width: 27%;
-    margin: 0 auto;
-}
-#span-orange-color {
+.span-orange-color {
     color: orange;
 }
 .link-button {
@@ -43,6 +36,13 @@ p {
     line-height: 1.6;
     margin-bottom: 10%;
 }
+.for-two-portion-width {
+    width: 50%;
+}
+.for-three-portion-width {
+    width: 27%;
+    margin: 0 auto;
+}
 
 /*food homepage section*/
 #food-homepage {
@@ -59,9 +59,8 @@ p {
 
 /*food aboutme section*/
 #food-aboutme {
-    margin-top: 8%;
-    padding-left: 10%;
-    padding-top: 3%;
+    margin-top: 10%;
+    padding: 3% 0% 0% 10%;
     background-image: url(images/shapes/7.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -75,10 +74,10 @@ p {
 /*food aboutme section*/
 
 /*food myrecipe section*/
-.center-aligned {
+.text-formating-for-food-myrecipe {
     text-align: center;
 }
-.limited-width-for-carditem {
+.limited-width-for-carditem-paragraph {
     line-height: 1.7;
 }
 #limited-width-for-food-myrecipe-paragraph{
@@ -86,12 +85,40 @@ p {
     line-height: 1.5;
 }
 #food-myrecipe {
-    margin-top: 8%;
+    margin-top: 10%;
     padding: 0 7%;
 }
 .carditem {
-    border-radius: 40px;
+    border-radius: 30px;
     box-shadow: 5px 5px 20px gray;
     padding: 20px;
 }
 /*food myrecipe section*/
+
+/*food followers section*/
+.text-formating-for-food-followers {
+    text-align: center;
+    color: black;
+}
+#food-followers {
+    margin: 10% 8.5% 0%;
+    padding: 2% 0;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 20px;
+}
+/*food followers section*/
+
+/*food footer section*/
+#food-footer {
+    margin-top: 10%;
+    padding: 2% 0;
+    background-color: rgba(0, 0, 8, 0.952);
+}
+.text-formating-for-footers {
+    text-align: center;
+    line-height: 1.6;
+}
+footer p {
+    color: white;
+}
+/*food footer section*/
