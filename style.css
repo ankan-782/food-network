@@ -7,8 +7,12 @@ body {
 .flexible-container {
     display: flex;
 }
-.half-width {
+.for-two-portion-width {
     width: 50%;
+}
+.for-three-portion-width {
+    width: 27%;
+    margin: 0 auto;
 }
 #span-orange-color {
     color: orange;
@@ -26,6 +30,10 @@ h1 {
 }
 h2 {
     font-size: 3.6rem;
+}
+h3 {
+    color: black;
+    font-size: 2rem;
 }
 p {
     font-size: 1.3rem;
@@ -67,5 +75,23 @@ p {
 /*food aboutme section*/
 
 /*food myrecipe section*/
-
+.center-aligned {
+    text-align: center;
+}
+.limited-width-for-carditem {
+    line-height: 1.7;
+}
+#limited-width-for-food-myrecipe-paragraph{
+    margin: 0 22% 5%;
+    line-height: 1.5;
+}
+#food-myrecipe {
+    margin-top: 8%;
+    padding: 0 7%;
+}
+.carditem {
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px gray;
+    padding: 20px;
+}
 /*food myrecipe section*/
