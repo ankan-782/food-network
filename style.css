@@ -16,7 +16,7 @@ body {
     font-weight: 500;
     border-radius: 50px;
     padding: 3% 6%;
-    background-image: linear-gradient(red, orange);
+    background-image: linear-gradient(orange, red);
 }
 h1 {
     font-size: 5rem;
@@ -31,18 +31,31 @@ h3 {
 p {
     font-size: 1.3rem;
 }
-#limited-width {
+.limited-width {
     width: 70%;
     line-height: 1.6;
     margin-bottom: 10%;
 }
-.for-two-portion-width {
+
+/*for food homepage and about me page width*/
+.two-portion-width-for-food-homepage-and-Aboutme {
     width: 50%;
 }
+/*for food homepage and about me*/
+
+/*for my recipe and followers page width*/
 .for-three-portion-width {
     width: 27%;
     margin: 0 auto;
 }
+/*for my recipe and followers page width*/
+
+/*for review page width*/
+.two-portion-width-for-food-review {
+    width: 45%;
+    margin: 0 auto;
+}
+/*for review page width*/
 
 /*food homepage section*/
 #food-homepage {
@@ -90,20 +103,82 @@ p {
 }
 .carditem {
     border-radius: 30px;
-    box-shadow: 5px 5px 20px gray;
+    box-shadow: 0px 0px 20px rgb(189, 182, 182);
     padding: 20px;
 }
 /*food myrecipe section*/
 
+/*food review section*/
+#food-reviews {
+    margin: 10% 8.5% 0%;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: 100% 100%;
+    padding: 4% 5%;
+    box-shadow: 0px 0px 20px rgb(189, 182, 182);
+    border-radius: 20px;
+}
+#form {
+    padding-top: 7%;
+    padding-left: 10%;
+}
+#name{
+    width: 70%;
+    padding: 4% 6%;
+    margin: 10px 0;
+    display: inline-block;
+    border: 3px solid red;
+    border-radius: 50px;
+    outline: none;
+}
+#email{
+    width: 70%;
+    padding: 4% 6%;
+    margin: 10px 0;
+    display: inline-block;
+    border: 3px solid red;
+    border-radius: 50px;
+    outline: none;
+}
+#taste{
+    width: 70%;
+    padding: 4% 6%;
+    margin: 10px 0px 50px 0px;
+    display: inline-block;
+    border: 3px solid red;
+    border-radius: 50px;
+    outline: none;
+}
+.text-color-in-form {
+    color: black;
+    font-weight: 500;
+}
+small {
+    font-size: 14px;
+}
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}
+.link-button-for-form {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 3% 6%;
+    background-image: linear-gradient(red, salmon);
+}
+/*food review section*/
+
 /*food followers section*/
 .text-formating-for-food-followers {
+    padding: 0;
+    margin: 0;
     text-align: center;
     color: black;
 }
 #food-followers {
     margin: 10% 8.5% 0%;
-    padding: 2% 0;
-    box-shadow: 5px 5px 20px gray;
+    padding: 4% 0;
+    box-shadow: 0px 0px 20px rgb(189, 182, 182);
     border-radius: 20px;
 }
 /*food followers section*/
@@ -111,7 +186,7 @@ p {
 /*food footer section*/
 #food-footer {
     margin-top: 10%;
-    padding: 2% 0;
+    padding: 5px 0 5px;
     background-color: rgba(0, 0, 8, 0.952);
 }
 .text-formating-for-footers {
@@ -120,5 +195,23 @@ p {
 }
 footer p {
     color: white;
+}
+ul {
+    padding: 0;
+    width: 100%;
+    margin: 7% auto 2%;
+    list-style-type: none;
+    text-align: center;
+}
+ul li {
+    margin: 0 2%;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+ul a {
+    color: white;
+    text-decoration: none;
 }
 /*food footer section*/
